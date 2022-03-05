@@ -1,0 +1,31 @@
+title: midorichan's portfolio
+description: くそざこぷろぐらまーのぽーとふぉりお。
+email: furandorusukaret.jp@gmail.com
+baseurl: ""
+url: "https://pf.midorichan.cf"
+
+author-name: midorichan
+author-avatar: favicon.ico
+
+twitter: https://twitter.com/Midorichaan2525
+github: https://github.com/midorichaan
+youtube: https://www.youtube.com/channel/UCXkz7TanWKNcvRAWm59sqYQ
+website: https://midorichan.cf
+
+markdown: kramdown
+permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/page/:num"
+
+include:
+  - _pages
+
+timezone: Asia/Tokyo
+
+sass:
+  sass_dir: _sass
+  style: compressed
